@@ -1,0 +1,21 @@
+<odoo>
+    <menuitem id="menu_library_root"
+              name="Library Management"
+              sequence="31"/>
+
+    <menuitem id="menu_library_books"
+              name="Books"
+              parent="menu_library_root"
+              action="action_library_books"/>
+    <menuitem id="menu_library_authors"
+              name="Authors"
+              parent="menu_library_root"
+              action="action_library_authors"/>
+    <menuitem id="menu_library_categories"
+              name="Categories"
+              parent="menu_library_root"
+              action="action_library_categories"/>
+    <menuitem id="menu_library_borrowings"
+              name="Borrowings" parent="menu_library_root"
+              action="action_library_borrowings"/>
+</odoo>
